@@ -1,0 +1,25 @@
+<div id="loading" style="display:none;">
+    <div class="spinner"></div>
+</div>
+
+<div class="zoom hide_me" id="zoomed_" >
+    <div id="single_archive_ajax_content">
+        <div class="col-md-12">
+            <div id="img_holder">
+                <img src="" class="zoomed_img"/>
+            </div>
+            <div class="ajax-navi col-xs-12 col-sm-12">
+                <a href="#" rel="prev" id="picture_" class="prev scaleup_inside"></a>
+                <a href="#" rel="next" id="picture_" class="next scaleup_inside"></a>
+                <a href="#" class="close"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  jQuery(document).ready(function($) {
+    // define the gallery continer ID
+    $('#gallery').Goo_gallery();
+  });
+</script>
